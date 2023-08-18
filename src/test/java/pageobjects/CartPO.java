@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CartPO {
 	WebDriver driver;
+	int a =0;
 
 	@FindBy(xpath = "//h1[normalize-space()='Shopping Cart']")
 	private WebElement ShoppingCartText;
